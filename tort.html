@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Искусство Хруста</title>
+    <link rel="stylesheet" href="/css/style-tort.css">
+    <script src="/js/script.js" defer></script>
+    <script src="/js/modalScript.js"defer></script>
+
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="contact-info">
+                <span>📍 г. Астрахань, ул. Адмирала Нахимова, д. 46а/1</span>
+                <span>⏰ Ежедневно с 08:30 до 18:30</span>
+            </div>
+            <div class="contact-links">
+                <span>📞 +79264059899 </span>
+                <span>✉️ iskusstvo.hrusta@mail.ru</span>
+            </div>
+        </div>
+        <nav class="nav__menu">
+            <div class="logo">
+                <img src="/img/logo/logo2.png" alt="Искусство Хлеба">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">ГЛАВНАЯ</a></li>
+                <li class="dropdown">
+                    <a href="menu.html" class="dropbtn">МЕНЮ</a>
+                    <div class="dropdown-content">
+                        <a href="desert.html">Десерты</a>
+                        <a href="xleb.html">Хлеб</a>
+                        <a href="tort.html">Торты</a>
+                    </div>
+                </li>
+                <li><a href="aboutUs.html">О НАС</a></li>
+                <li><a href="kontakt.html">КОНТАКТЫ</a></li>
+            </ul>
+        </nav>
+        <div class="book__table">
+            <a class="book-table-text" href="index.html">ЗАКАЗАТЬ</a>
+        </div>
+    </header>
+    <div class="order-table">
+        <div class="overlapping-squares">
+            <div class="square"></div>
+            <div class="square content">
+                <a href="#" id="cart-icon">
+                    <img class="table-bulka" src="/img/icon/table icon.png" alt="Заказать стол">
+                    <span class="table-txt">ЗАКАЗАТЬ ДЕСЕРТ</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="cart-modal" class="cart-modal">
+        <div class="cart-modal-content">
+            <span class="close">&times;</span>
+            <h2>Корзина</h2>
+            <div class="cart-items" id="cart-items">
+                <!-- Сюда будут добавляться элементы корзины -->
+            </div>
+            <button class="checkout" id="checkout">Оформить заказ</button>
+        </div>
+    </div>
+    <section class="banner">
+        <div class="banner-content">
+            <img src="img/katalog-img/banner.jpg" alt="Искусство Хруста" class="banner-logo">
+        </div>
+    </section>
+    <section class="products">
+        <div class="container">
+            <div class="product-card">
+                <div class="badge">Торты</div>
+                <img src="img/item-tort/Tort1.jpg" alt="Calabrese Broccoli">
+                <h3>Ягодно-миндальный торт</h3>
+                <p class="price">400 р</p>
+                <button class="add-to-cart">Заказать</button>
+            </div>
+            <div class="product-card">
+                <div class="badge">Торты</div>
+                <img src="img/item-tort/Tort2.jpg" alt="Fresh Banana Fuites">
+                <h3>Сказочный чизкейк черника-тимьян</h3>
+                <p class="price">400 р</p>
+                <button class="add-to-cart">Заказать</button>
+            </div>
+            <div class="product-card">
+                <div class="badge">Торты</div>
+                <img src="img/item-tort/Tort3.jpg" alt="White Nuts">
+                <h3>Шоколадно-кофейный торт</h3>
+                <p class="price">400 р</p>
+                <button class="add-to-cart">Заказать</button>
+            </div>
+            <div class="product-card">
+                <div class="badge">Торты</div>
+                <img src="img/item-tort/Totr4.jpg"White Nuts">
+                <h3>Ореховый тарт</h3>
+                <p class="price">400 р</p>
+                <button class="add-to-cart">Заказать</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="product-card">
+                <div class="badge">Торты</div>
+                <img src="img/item-tort/Tort5.jpg" alt="Calabrese Broccoli">
+                <h3>Тирамису классический</h3>
+                <p class="price">400 р</p>
+                <button class="add-to-cart">Заказать</button>
+            </div>
+            <div class="product-card">
+                <div class="badge">Торты</div>
+                <img src="img/item-tort/Tort6.jpg" alt="Fresh Banana Fuites">
+                <h3>Торт Малина - Ваниль</h3>
+                <p class="price">400 р</p>
+                <button class="add-to-cart">Заказать</button>
+            </div>
+            <div class="product-card">
+                <div class="badge">Торты</div>
+                <img src="img/item-tort/Tort7.jpg" alt="White Nuts">
+                <h3>Чизкейк «Нью-Йорк» с маскарпоне</h3>
+                <p class="price">400 р</p>
+                <button class="add-to-cart">Заказать</button>
+            </div>
+            <div class="product-card">
+                <div class="badge">Торты</div>
+                <img src="img/item-tort/Tort8.jpg" alt= "White Nuts">
+                <h3>Шоколадно-черничный торт</h3>
+                <p class="price">400 р</p>
+                <button class="add-to-cart">Заказать</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="product-card">
+                <div class="badge">Торты</div>
+                <img src="img/item-tort/Tort9.jpg" alt="Calabrese Broccoli">
+                <h3>Шоколадно-малиновый торт.</h3>
+                <p class="price">400 р</p>
+                <button class="add-to-cart">Заказать</button>
+            </div>
+            <div class="product-card">
+                <div class="badge">Торты</div>
+                <img src="img/item-tort/Tort11.jpg" alt="Fresh Banana Fuites">
+                <h3>Медовые пирожные с кремом чиз</h3>
+                <p class="price">400 р</p>
+                <button class="add-to-cart">Заказать</button>
+            </div>
+            <div class="product-card">
+                <div class="badge">Торты</div>
+                <img src="img/item-tort/Tort12.jpg" alt="White Nuts">
+                <h3>Шоколадно-ванильный пудинг</h3>
+                <p class="price">400 р</p>
+                <button class="add-to-cart">Заказать</button>
+            </div>
+            <div class="product-card">
+                <div class="badge">Торты</div>
+                <img src="img/item-tort/Tort.jpg">
+                <h3>Чернично-Лимонный торт С Заварным кремом</h3>
+                <p class="price">400 р</p>
+                <button class="add-to-cart">Заказать</button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="left-menu">
+                <a href="#">ГЛАВНАЯ</a>
+                <a href="#">МЕНЮ</a>
+                <a href="#">КОНТАКТЫ</a>
+            </div>
+            <div class="center-content">
+                <img src="/img/logo/logo3.png" alt="Искусство хруста" class="logo">
+                <div class="circle">
+                    <img src="/img/icon/illustration-03.png" alt="Булочка" class="circle-image">
+                </div>
+            </div>
+            <div class="right-menu">
+                <a href="https://t.me/+79264059899">TELEGRAM</a>
+                <a href="https://api.whatsapp.com/send?phone=79264059899">WHATSAPP</a>
+                <a href="https://vk.com/franchise.pekarnya">VK</a>
+                <a href="https://yandex.ru/maps/-/CDfJqJ4T">YANDEX MAP</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

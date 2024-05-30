@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/logo/logo3.png">
+    <title>ИССКУСТВО ХРУСТА - Главная</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="contact-info">
+                <span>📍 г. Астрахань, ул. Адмирала Нахимова, д. 46а/1</span>
+                <span>⏰ Ежедневно с 08:30 до 18:30</span>
+            </div>
+            <div class="contact-links">
+                <span>📞 +79264059899 </span>
+                <span>✉️ iskusstvo.hrusta@mail.ru</span>
+            </div>
+        </div>
+        <nav class="nav__menu">
+            <div class="logo">
+                <img src="/img/logo/logo2.png" alt="Искусство Хлеба">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">ГЛАВНАЯ</a></li>
+                <li class="dropdown">
+                    <a href="menu.html" class="dropbtn">МЕНЮ</a>
+                    <div class="dropdown-content">
+                        <a href="desert.html">Десерты</a>
+                        <a href="xleb.html">Хлеб</a>
+                        <a href="tort.html">Торты</a>
+                    </div>
+                </li>
+                <li><a href="aboutUs.html">О НАС</a></li>
+                <li><a href="kontakt.html">КОНТАКТЫ</a></li>
+            </ul>
+        </nav>
+        <div class="book__table">
+            <a class="book-table-text" href="#Order">ЗАКАЗАТЬ</a>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <video autoplay muted loop id="hero-video">
+                <source src="/img/video.mp4" type="video/mp4">
+            </video>
+            <div class="video-overlay"></div>
+            <div class="hero-content">
+                <h2>ТРАДИЦИЯ И ВКУС</h2>
+                <h1>Булочки с тёплым <br>сердцем</h1>
+                <p>Приходите всей семьей и почувствуйте радость от аппетитных десертов</p>
+                <div class="menu__button">
+                    <a class="menu-button-text" href="menu.html">МЕНЮ</a>
+                </div>
+            </div>
+        </section>
+        <div class="order-table">
+            <div class="overlapping-squares">
+                <div class="square content">
+                    <a href="#">
+                        <img class="table-bulka" src="/img/icon/table icon.png" alt="Заказать стол">
+                        <span onclick="window.location.href = 'menu.html'" class="table-txt">ЗАКАЗАТЬ ДЕСЕРТ</span>
+                    </a>
+                </div>
+                <div class="square"></div>
+            </div>
+        </div>
+    </main>
+    <section class="offer">
+        <h2 class="subtitle">КОРОЛЕВСКИЕ АРОМАТЫ</h2>
+        <h1 class="title">Мы предлагаем высший уровень</h1>
+        <p class="description">
+            Съешь еще этих сладких булок, да выпей чаю<br>
+            Ведь в наш состав входит: 10% хруста 30% заботы 50% счастья
+        </p>
+        <div class="offer-cards">
+            <div class="card">
+                <img src="img/index-img/desert.jpg" alt="Десерты">
+                <h3>Десерты</h3>
+                <a href="desert.html" class="menu-link">ПОКАЗАТЬ МЕНЮ</a>
+            </div>
+            <div class="card">
+                <img src="img/index-img/xleb.jpg" alt="Хлеб">
+                <h3>Хлеб</h3>
+                <a href="xleb.html" class="menu-link">ПОКАЗАТЬ МЕНЮ</a>
+            </div>
+            <div class="card">
+                <img src="img/index-img/tort.jpg" alt="Торты">
+                <h3>Торты</h3>
+                <a href="tort.html" class="menu-link">ПОКАЗАТЬ МЕНЮ</a>
+            </div>
+        </div>
+    </section>
+    <section class="cake-section">
+        <div class="cake-image">
+            <img src="/img/index-img/mindal.jpg" alt="Ягодно-миндальный торт">
+        </div>
+        <div class="cake-description">
+            <h2 class="badge-title"><span class="badge-icon">★</span> ОСОБЫЙ ТОРТ</h2>
+            <h1 class="cake-title">Ягодно-миндальный торт</h1>
+            <p class="description">
+                Ягодно-миндальный пирог - настоящее лакомство для гурманов! Этот восхитительный десерт сочетает в себе нежнейшую миндальную основу и сочные, ароматные ягоды. Каждый кусочек тает во рту, даря неповторимый вкус и аромат. Секрет неповторимого вкуса кроется в идеальном балансе сладости миндаля и свежести спелых ягод. Пирог получается воздушным, но в то же время насыщенным благодаря миндальной муке. А ягоды придают ему яркий фруктовый акцент и сочность.
+            </p>
+            <div class="price">
+                <span class="old-price">₽4000.00</span> <span class="new-price">₽2000.00</span>
+            </div>
+            <a href="tort.html" class="button-cake">ПРОСМОТРЕТЬ МЕНЮ</a>
+        </div>
+    </section>
+    <section class="chefs-section">
+        <h1 class="chefs-subtitle">Те кому мы доверяем!</h1>
+        <h2 class="chefs-title">Наши повара</h2>
+        <div class="chefs-container">
+            <div class="chef-card">
+                <img src="img/chef1.jpg" alt="Повар 1" class="chef-image">
+                <h3 class="chef-name">Иван Иванов</h3>
+                <p class="chef-info">Главный Пекарь</p>
+                <p class="chef-quote">"Кулинария - это искусство."</p>
+            </div>
+            <div class="chef-card">
+                <img src="img/chef2.jpg" alt="Повар 2" class="chef-image">
+                <h3 class="chef-name">Мария Петрова</h3>
+                <p class="chef-info">Шеф-Повар</p>
+                <p class="chef-quote">"Вкус и аромат - главное в десертах."</p>
+            </div>
+            <div class="chef-card">
+                <img src="img/chef3.jpg" alt="Повар 3" class="chef-image">
+                <h3 class="chef-name">Александр Смирнов</h3>
+                <p class="chef-info">Су-Шеф</p>
+                <p class="chef-quote">"Кулинария - моя страсть."</p>
+            </div>
+        </div>
+    </section>
+    <section class="menu-section">
+        <h2 class="section-subtitle">СПЕЦИАЛЬНЫЙ ВЫБОР</h2>
+        <h1 class="section-title">Вкусное меню</h1>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="/img/index-img/choco-muffinss.jpg" alt="Шоколадные маффины">
+                <div class="menu-text">
+                    <h3>Шоколадные маффины</h3>
+                    <p>Эти шоколадные маффины не оставят вас равнодушными. Они насыщенно шоколадные, ароматные, очень нежные и мягкие</p>
+                </div>
+                <div class="menu-price">₽2500</div>
+            </div>
+            <div class="menu-item">
+                <img src="/img/index-img/milk-slice.jpg" alt="Молочный ломтик">
+                <div class="menu-text">
+                    <h3>Молочный ломтик</h3>
+                    <p>Молочный и шоколадный бисквит</p>
+                </div>
+                <div class="menu-price">₽1000</div>
+            </div>
+            <div class="menu-item">
+                <img src="/img/index-img/bun-raisinss.jpg" alt="Ватрушки с лимоном и изюмом">
+                <div class="menu-text">
+                    <h3>Ватрушки с лимонным творогом</h3>
+                    <p>Ватрушки с лимонным творогом и изюмом</p>
+                </div>
+                <div class="menu-price">₽2500</div>
+            </div>
+            <div class="menu-item">
+                <img src="/img/index-img/vareniki.jpg" alt="Выпечка 1">
+                <div class="menu-text">
+                    <h3>Шоколадные вареники</h3>
+                    <p>с вишней и заварным ванильным кремом</p>
+                </div>
+                <div class="menu-price">₽4000</div>
+            </div>
+            <div class="menu-item">
+                <img src="/img/index-img/capcakes.jpg" alt="Выпечка 2">
+                <div class="menu-text">
+                    <h3>Капкейки «Черный лес»</h3>
+                    <p>За модным названием «капкейк» скрывается не что иное, как порционный тортик. Мы взяли за основу знаменитый торт «Черный лес» и приготовили его в миниатюрном формате.
+                    </p>
+                </div>
+                <div class="menu-price">₽3900</div>
+            </div>
+            <div class="menu-item">
+                <img src="/img/index-img/morkovi-cake.jpg" alt="Выпечка 3">
+                <div class="menu-text">
+                    <h3>Морковные капкейки</h3>
+                    <p>Невероятно сочные, мягкие, ароматные капкейки с добавлением моркови и орешков в тесто. Это просто объедение для любителей пряной выпечки.</p>
+                </div>
+                <div class="menu-price">₽4900</div>
+            </div>
+        </div>
+        <div class="menu-footer">
+            <p>Ежедневно с <span>8:30</span> до <span>18:00</span></p>
+            <a href="menu.html" class="button-spesial">ПРОСМОТРЕТЬ МЕНЮ</a>
+        </div>
+    </section>
+    <main id="Order" class="order-main">
+        <div class="order-content">
+            <div class="order-form-container">
+                <h2>Онлайн заказ</h2>
+                <p>Оформить заказ продукции по телефону или заполните форму заказа</p>
+                <form class="order-form">
+                    <div class="form-row">
+                        <input type="text" id="name" name="name" placeholder="Имя" required>
+                        <input type="tel" id="phone" name="phone" placeholder="Телефон" required>
+                    </div>
+                    <div class="form-row">
+                        <select id="people" name="people" required>
+                            <option value="1">1 Человек</option>
+                            <option value="2">2 Человека</option>
+                            <option value="3">3 Человека</option>
+                            <option value="4">4 Человека</option>
+                            <option value="5">5 Человек</option>
+                        </select>
+                        <input type="date" id="date" name="date" required>
+                        <input type="time" id="time" name="time" value="20:00" required>
+                    </div>
+                    <input class="comment-type" type="text" id="comment" name="comment" placeholder="" required>
+                    <button type="submit">ЗАБРОНИРОВАТЬ</button>
+                </form>
+            </div>
+            <div class="order-image-container">
+                <img class="order-image-container-img" src="img/index-img/card.jpg" alt="Искусство хруста">
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal -->
+    <div id="orderModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Спасибо за ваш заказ!</h2>
+            <p>Ваш заказ успешно оформлен. Мы свяжемся с вами в ближайшее время.</p>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="left-menu">
+                <a href="index.html">ГЛАВНАЯ</a>
+                <a href="menu.html">МЕНЮ</a>
+                <a href="kontakt.html">КОНТАКТЫ</a>
+            </div>
+            <div class="center-content">
+                <img src="/img/logo/logo3.png" alt="Искусство хруста" class="logo">
+                <div class="circle">
+                    <img src="/img/icon/illustration-03.png" alt="Булочка" class="circle-image">
+                </div>
+            </div>
+            <div class="right-menu">
+                <a href="https://t.me/+79264059899">TELEGRAM</a>
+                <a href="https://api.whatsapp.com/send?phone=79264059899">WHATSAPP</a>
+                <a href="https://vk.com/franchise.pekarnya">VK</a>
+                <a href="https://yandex.ru/maps/-/CDfJqJ4T">YANDEX MAP</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
